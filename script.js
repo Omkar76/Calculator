@@ -192,7 +192,6 @@ function toggleTheme(){
 	if(calci.darkTheme){
 		getElem('html')
 		.style["filter"]="invert(1)";
-		alert(5)
 	}
 }
 
