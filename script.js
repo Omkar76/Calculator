@@ -191,8 +191,12 @@ function allClear(){
 function toggleTheme(){
 	if(calci.darkTheme){
 		getElem('html')
-		.style["filter"]="invert(1)";
-	}
+        .style["filter"]="invert(1)";
+	}else{
+        getElem('html')
+        .style["filter"]="invert(0)";
+    }
+    calci.darkTheme = !calci.darkTheme;
 }
 
 /*
